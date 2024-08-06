@@ -69,13 +69,6 @@ nav a {
     padding-bottom: 1rem;
 }
 
-button {
-    background-color: #FFD700;
-    border: none;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    cursor: pointer;
-}
 
 .promociones-1{
     display: grid;
@@ -164,24 +157,53 @@ button {
     font-size: 1rem;
 }
 
-.promociones, .suscripcion {
+
+
+.suscripcion {
+    display: flex;
+    align-items: center;
+    font-family: "Cinzel", serif;
     padding: 2rem 1rem;
     text-align: center;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.promociones h2, .suscripcion h2 {
-    font-family: 'Open Sans', sans-serif;
-    color: #FF6F61;
+.title-suscription{
+    padding-right: 1rem;
 }
 
-.promocion {
-    margin: 1rem 0;
+input[type="email"] {
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 25px 0 0 25px;
+    flex: 1;
+    outline: none;
 }
 
-.promocion img {
-    max-width: 100%;
-    height: auto;
+input[type="email"]::placeholder {
+    color: #aaa;
+    font-style: italic;
 }
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 25px 25px 0;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+
 
 footer {
     background-color: #282828;
