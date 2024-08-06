@@ -15,7 +15,6 @@ body {
 }
 
 header {
-    
     background: linear-gradient(to right, #c75b79b9, #a31341);
     color: #FFFFFF;
     display: flex;
@@ -82,7 +81,8 @@ button {
     display: grid;
     grid-template-rows: 0.75fr 3fr 0.75fr;
     background-color: #F4D9D0;
-   
+    border: 1px solid #e0b8ab;
+   padding-bottom: 1rem;
     width: 100%;
     height: 100%;
    
@@ -110,6 +110,41 @@ button {
     border-radius: 16px;
 }
 
+
+
+.container-description{
+    display: flex;
+    padding-top: 1.5rem;
+    align-content: center;
+    justify-content: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1rem;
+}
+
+.promociones-2{
+    display: grid;
+    grid-template-rows: 0.75fr 3fr 0.75fr;
+    background-color: #fefae0da;
+    border: 1px solid #c7c4ae;
+    width: 100%;
+    height: 100%;
+   
+    
+}
+
+.title-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Cinzel", serif;
+}
+
+.promocion-container-2{
+    display: flex;
+    height: 50vh;
+    gap: 1rem;
+}
+
 .promocion-img-2{
     width: 80%;
     height: auto;
@@ -117,17 +152,12 @@ button {
     
     border-radius: 16px;
 }
-.promocion-img-3{
-    width: 80%;
-    height: auto;
-    margin: 0 auto;
-    
-    border-radius: 16px;
-}
 
-.description{
+
+
+.description-2{
     display: flex;
-    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
     align-content: center;
     justify-content: center;
     font-family: "Josefin Sans", sans-serif;
